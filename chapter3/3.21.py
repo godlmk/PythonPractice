@@ -1,0 +1,6 @@
+# print("{:>15s}:{:<8.2f}".format("Length", 23.87501))
+num1 = input("输入：15+10:")
+print(num1)
+num2 = input("输入:2.0*3:")
+print(num2)
+print(num2 + num1)
