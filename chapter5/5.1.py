@@ -1,7 +1,7 @@
 def drawtianzige(n):
-    lines = 3 * n + 1
+    lines = 5 * n + 1
     for i in range(1, lines + 1):
-        if i % 3 == 1:
+        if i % 5 == 1:
             print("+----" * n, end='')
             print("+")
         else:

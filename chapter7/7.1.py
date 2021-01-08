@@ -1,0 +1,6 @@
+textFile = open("D:/PythonProject/chapter7/7.1.txt", "rt", encoding="UTF-8")
+print(textFile.readline())
+textFile.close()
+binFile = open("D:\\PythonProject\\chapter7\\7.1.txt", "rb")
+print(binFile.readline())
+binFile.close()

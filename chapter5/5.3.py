@@ -1,6 +1,6 @@
 def isNum(s):
     value = False
-    if type(s) == int or float or complex or s[-1] == 'j':
+    if type(s) == int or float or complex:
         value = True
     return value
 

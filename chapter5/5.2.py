@@ -1,8 +1,11 @@
 def isOdd(N):
     value = True
-    if N % 2 == 0:
+    if N % 2 == 0 or N == 1:
         value = False
     return value
+
+
+isodd = lambda n: n + 1
 
 
 def main():
